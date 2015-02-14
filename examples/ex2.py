@@ -1,10 +1,10 @@
 a = 4
 
-print type(a)
+print(type(a))
 
 b = 5.6
 
-print type(b)
+print(type(b))
 
 c = a+b
 
@@ -12,26 +12,26 @@ c = a+b
 
 d = "hola"
 
-print type(d)
+print(type(d))
 
 # e = a + d
 
 f = " mundo"
 
-print d+f
+print(d+f)
 
-print "resultado",c
+print("resultado",c)
 
 # Operaciones
 
-print 4+5
+print(4+5)
 
-print 5+4*3-6/2 # ????
+print(5+4*3-6/2) # ????
 
 # print a=b  # ????
 
-print a==b
+print(a==b)
 
 g = a>b
 
-print type(g)
+print(type(g))

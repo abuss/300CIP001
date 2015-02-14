@@ -1,7 +1,7 @@
-"Dibuja un cuadrado"
+"""Dibuja un cuadrado"""
 
 import turtle
-print dir()
+print(dir())
 
 turtle.setup(300,400)
 turtle.shape("turtle")

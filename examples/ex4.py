@@ -1,6 +1,6 @@
 from turtle import *
 # dir(turtle)
-print dir()
+print(dir())
 
 setup(300,400)
 shape("turtle")
