@@ -1,12 +1,12 @@
 def suma(a=3,b=4,*arg):
-    print arg, len(arg)
+    print((arg, len(arg)))
     return a+b
 
 if suma(1,3):
-    print "suma"
- print "ok"
+    print("suma")
+    print("ok")
 else:
-  print "Wrong"
+  print("Wrong")
 
 # if -1:
 #     print "ok"

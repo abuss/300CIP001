@@ -1,15 +1,15 @@
-n = int(raw_input("un numero:"))
+n = int(input("un numero:"))
 i = 0
 while i<n:
-    print i,
+    print(i, end=' ')
     i+=1
-print
+print()
 
 
-n = int(raw_input("un numero:"))
+n = int(input("un numero:"))
 i = 0
 while True:
-    print i
+    print(i)
     i+=1
     if i>=n:
         break

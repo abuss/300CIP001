@@ -14,7 +14,7 @@ def power(a,b):
     return tmp
 
 a,b = 2,3
-print "%d^%d=%d" % (a,b,power(a,b))
+print("%d^%d=%d" % (a,b,power(a,b)))
 
 a,b = 5,4
-print "%d^%d=%d" % (a,b,power(a,b))
+print("%d^%d=%d" % (a,b,power(a,b)))

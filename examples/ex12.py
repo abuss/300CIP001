@@ -8,4 +8,5 @@ for i in range(5):
     fd(30)
     left(72)
 
-raw_input()
+
+input()

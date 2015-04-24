@@ -14,18 +14,18 @@ def max(a,b):
 
 suma = 0
 n = 0
-tecla = raw_input("Numero? (o 'q' para salir)")
+tecla = input("Numero? (o 'q' para salir)")
 min_tmp = float(tecla)
 max_tmp = float(tecla)
 while (tecla!='q'):
-    print tecla
+    print(tecla)
     nota = float(tecla)
     suma = suma + nota
     n = n + 1
     min_tmp = min(nota,min_tmp)
     max_tmp = max(nota,max_tmp)
-    tecla = raw_input("Numero? (o 'q' para salir)")
+    tecla = input("Numero? (o 'q' para salir)")
 
-print "Promedio:",suma/n, "minima noto:",min_tmp,"maxima nota:",max_tmp
+print("Promedio:",suma/n, "minima noto:",min_tmp,"maxima nota:",max_tmp)
 
 

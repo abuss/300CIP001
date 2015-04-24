@@ -1,3 +1,3 @@
-for (i=5;i<10;i+=2) {
+for (i=1;i<10;i+=1) {
     console.log(i);
 }

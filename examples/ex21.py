@@ -12,10 +12,10 @@ def comb(n,m):
 def triangulo_pascal(n):
     "Imprime el triangulo de pascal hasta el nivel n"
     for i in range(n):
-        print ' '*(2*n-(i*2)),
+        print(' '*(2*n-(i*2)),end='')
         for j in range(i+1):
-            print "%3d" % comb(i,j),
-        print
+            print('%4d' % comb(i,j),end='')
+        print('\n')
 
-print
+print('\n')
 triangulo_pascal(8)

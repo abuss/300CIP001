@@ -57,6 +57,6 @@ def triangulo_equilatero(base):
 
 setup(300,300)
 mover(0,50)
-print "Area:", cuadrado(28.8675*2)
+print("Area:", cuadrado(28.8675*2))
 mover(0,-100)
-print "Area:", triangulo_equilatero(100)
+print("Area:", triangulo_equilatero(100))

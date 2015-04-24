@@ -6,9 +6,9 @@ def plot(f,xi,xf):
     while x<xf:
         y = f(x)
         if x==0:
-            print '+'+'-'*y+'*'+'-'*(60-y)
+            print('+'+'-'*y+'*'+'-'*(60-y))
         else:
-            print '|'+" "*y+'*'
+            print('|'+" "*y+'*')
         x+=1
 
 def f1(x):
@@ -20,4 +20,4 @@ def f2(x):
 def f3(x):
     return int(math.sqrt(x))
 
-plot(f2,-10,10)
+plot(f2,0,10)
