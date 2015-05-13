@@ -1,0 +1,9 @@
+mover
+mover
+cambiar_dir(derecha)
+mover
+cambiar_dir(abajo)
+mover
+cambiar_dir(derecha)
+mover
+tomar
