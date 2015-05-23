@@ -1,11 +1,14 @@
 cambiar_dir(derecha)
+repita 8 mover
+cambiar_dir(arriba)
+repita 4 mover
+cambiar_dir(izquierda)
+repita 6 mover
+cambiar_dir(abajo)
 mover
 mover
 mover
 mover
 cambiar_dir(arriba)
-mover
-cambiar_dir(izquierda)
-mover
 mover
 tomar

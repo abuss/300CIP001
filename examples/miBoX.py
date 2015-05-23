@@ -18,6 +18,7 @@ mover
 tomar
 """
 
+
 #espacio de juego
 espacio = []
 for i in range(6):

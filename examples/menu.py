@@ -13,9 +13,15 @@ def consultar_precio(menu:list, articulo:str) -> int:
     """
     Retorna el precio asociado al articulo especificado o 0 si el articulo no existe en el menu
     """
-    for elem in menu:
-        if elem[0]==articulo:
-            return elem[1]
+    # for elem in menu:
+    #     if elem[0]==articulo:
+    #         return elem[1]
+    # return 0
+    i = 0
+    while i < len(menu):
+        if menu[i][0] == articulo:
+            return menu[i][1]
+        i+=1
     return 0
 
 
